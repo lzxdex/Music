@@ -67,10 +67,11 @@
         android:padding="20dp"
         >
         <TextView
+            android:id="@+id/min"
             android:layout_width="0.0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="00.00"
+            android:text="00:00"
             />
         <SeekBar
             android:id="@+id/seekBar"
@@ -78,10 +79,11 @@
             android:layout_weight="5"
             android:layout_height="wrap_content"/>
         <TextView
+            android:id="@+id/max"
             android:layout_width="0.0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="00.00"
+            android:text="00:00"
             />
     </LinearLayout>
     <LinearLayout
@@ -101,7 +103,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:src="@drawable/play_selector"
+            android:src="@android:drawable/ic_media_play"
             />
         <ImageView
             android:layout_width="0.0dp"
